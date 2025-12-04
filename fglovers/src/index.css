@@ -7,6 +7,7 @@
   font-weight: 500;
   color: #eaf1ff;
   background-color: #05060a;
+  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

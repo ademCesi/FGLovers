@@ -2,6 +2,16 @@
   min-height: 100vh;
 }
 
+.logo {
+  height: 1em;
+  will-change: filter;
+  transition: filter 200ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em var(--color-orange));
+}
+
 .page {
   position: relative;
   min-height: 100vh;
