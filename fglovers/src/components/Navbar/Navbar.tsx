@@ -8,9 +8,7 @@ interface NavItem {
 
 const navItems: NavItem[] = [
     { label: "Home", href: "/" },
-    { label: "Snake", href: "/snake" },
-    { label: "ChatBot", href: "/chatbot" },
-    { label: "Music", href: "/music" },
+    { label: "Visualizer", href: "/visualizer" },
 ];
 
 export default function Navbar() {
