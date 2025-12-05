@@ -9,7 +9,7 @@ function App() {
             <Navbar></Navbar>
             <ChatBruti />
         </>
-    )
+    );
 }
 
-export default App
+export default App;
