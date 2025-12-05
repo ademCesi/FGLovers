@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Jersey";
+  src: url("./assets/fonts/Jersey10-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .logo {
   height: 1em;
   will-change: filter;
@@ -7,6 +14,7 @@
 .logo:hover {
   filter: drop-shadow(0 0 2em var(--color-orange));
 }
+
 /* CHAT PLUS PETIT */
 .chat-container {
   width: 100%;
@@ -31,12 +39,14 @@
   font-family: "Jersey", sans-serif;
   font-size: 40px;            /* avant 40px */
   margin-bottom: 0;
+  color: white;
 }
 
 .chat-header-subtitle {
   font-family: "Jersey", sans-serif;
   font-size: 14px;            /* avant 25px */
   margin-top: 0;
+  color: white;
 }
 
 .chat-avatar {
@@ -129,7 +139,7 @@
 
 
 .allChatContainer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   margin:  0 150px 100px 0;
@@ -138,12 +148,20 @@
 }
 
 .button-chat{
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   margin: 10px;
+  z-index: 9999;
 }
 
 .buttonCursor{
   cursor: pointer;
+}
+
+.content-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 24px;
 }
