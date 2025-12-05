@@ -1,10 +1,13 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Satoshi-Regular;
   line-height: 1.5;
   font-weight: 400;
 
   color: #342a5a;
   background-color: var(--color-background-pink);
+
+  /*background-image: url("assets/images/2d-topographic-background.jpg");*/
+  /*background-size: cover;*/
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,4 +17,14 @@
 
 body {
   margin: 0;
+}
+
+h2 {
+  font-family: Satoshi-Bold;
+  font-size: 22px;
+}
+
+h3 {
+  font-family: Satoshi-Bold;
+  font-size: 16px;
 }
