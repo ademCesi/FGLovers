@@ -10,8 +10,20 @@ import Content3 from "./components/Content3/Content3.tsx";
 import Content4 from "./components/Content4/Content4.tsx";
 import Content5 from "./components/Content5/Content5.tsx";
 import Footer from "./components/Footer/Footer.tsx";
+import VisualizerPage from "./VisualizerPage.tsx";
+
 
 function App() {
+    const path = window.location.pathname;
+    if (path.startsWith('/visualizer')) {
+        return (
+            <>
+                <Navbar />
+                <VisualizerPage />
+            </>
+        );
+    }
+
     return (
         <>
             <Navbar></Navbar>
