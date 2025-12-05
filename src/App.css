@@ -18,8 +18,8 @@
 /* CHAT PLUS PETIT */
 .chat-container {
   width: 100%;
-  max-width: 550px;           /* avant 700px */
-  height: 620px;              /* avant 90vh */
+  max-width: 450px;           /* avant 700px */
+  height: 520px;              /* avant 90vh */
   display: flex;
   flex-direction: column;
   border: 6px solid #1f1f1f;  /* avant 8px */
